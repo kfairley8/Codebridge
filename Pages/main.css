@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-family: cursive;
+	text-align: center;
+	text-decoration: underline;
+}
+h2 {
+	font-family: Helvetica;
+	text-decoration: underline;
+}
+ul {
+	list-style: none;
+}
