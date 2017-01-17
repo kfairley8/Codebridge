@@ -1,0 +1,18 @@
+<html>
+<body>
+
+    <input type="text" id="one">
+    <input type="text" id="two">
+
+    <input type ="button" onclick="average()"value="average">
+    <input type="text" id ="avg">
+    <script type"text/javascript">
+    function average(){
+        var a=parseInt(document.getElementById("one").value);
+        var b=parseInt(document.getElementById("two").value);
+        var afinal=((a+b)/2);
+            document.getElementById('avg').value=afinal;
+        }
+     </script>
+    </body>
+</html>

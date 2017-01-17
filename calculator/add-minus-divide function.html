@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div>
+		<input id="a" type="text"/>
+		<input id="b" type="text"/>
+		<button onclick="sum();">+</button>
+		<button" onclick="sub();">-</button>
+		<button" onclick="mul();">&times;</button>
+		<button" onclick="div();">&divide;</button>
+	</div>
+
+	<script type="text/javascript">
+		var a,b,c; //declared three variables
+
+		// the funciton Sm is called when button is clicked
+		function sum(){
+			//here is a funciton call to setValues
+			//go to setValues NOW
+				setValues();
+			//variable result is given a value here
+			c = a+b; //How did you get a and b?
+			alert("The sum is equaled to "+ c);
+		}
+
+		function setValues(  ) //a function name setValues 
+		{ 
+		//Below is what the function is doing 
+		//assign var a a value of element with Id a
+		a = Number(document.getElementById("a").value); 
+		//assign var a a value of element with Id a
+		b = Number(document.getElementById("b").value);
+		}
+
+
+		function sub(){
+			//here is a funciton call to setValues
+			//go to setValues NOW
+				setValues();
+			//variable result is given a value here
+			c = a-b; //How did you get a and b?
+			alert("The subtracted sum is equaled to "+c);
+		}
+
+		function mul(){
+			//here is a funciton call to setValues
+			//go to setValues NOW
+				setValues();
+			//variable result is given a value here
+			c = a*b; //How did you get a and b?
+			alert("The subtracted sum is equaled to "+c);
+		}
+
+
+		function div(){
+			//here is a funciton call to setValues
+			//go to setValues NOW
+				setValues();
+			//variable result is given a value here
+			c = a/b; //How did you get a and b?
+			alert("The subtracted sum is equaled to "+c);
+		}
+
+		
+		
+
+
+
+
+	</script>
+	
+</body>
+</html>
