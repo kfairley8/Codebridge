@@ -1,0 +1,32 @@
+// play a song when it reaches a certain time
+// tell the time
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div style="margin: 15px 0px 0px; display: inline-block; text-align: center; width: 200px;"><div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: rgb(255, 255, 255);"><a href="" style="text-decoration: none; font-size: 13px; color: rgb(0, 0, 0);"> </a></div><script type="text/javascript" src="http://localtimes.info/clock.php?&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=200&ham=0&hbg=0&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=1000"></script></div>
+
+	<br>
+
+	<hr>
+
+	<br>
+
+	<audio id="audio2" 
+   preload="auto" 
+   src="http://upload.wikimedia.org/wikipedia/commons/a/a9/Tromboon-sample.ogg" >
+
+   <p>Your browser does not support the audio element</p>
+	</audio>
+
+	<script>
+  		var audio =document.getElementById('audio2')
+		// Seek to 10 seconds:
+		audio.canplay=setTimeout(function(){setTime()},500);
+		function setTime(){myAudio.currentTime = 10; }
+	</script>
+
+</body>
+</html>
