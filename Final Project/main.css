@@ -1,0 +1,162 @@
+header {
+	position: center fixed;
+    background-color: grey;
+    height: 60px;
+    font-size: 60pt;
+}
+h1 {
+	font-size: 50pt;
+}
+h2 {
+    font-size: 30pt;
+}
+body {
+	width: 100%;
+    margin:0;
+    background-image: url("Pics/f35.jpg");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+h3 {
+	font-size: 25pt;
+}
+a {
+	font-size: 20pt;
+}
+/* I only use video on index html */
+video {
+	width: 70%;
+	height: 70%;
+}
+footer {
+	margin-top: 400px; 
+	background-color: grey;
+}
+p {
+	font-size: 30pt;
+}
+ul {
+	list-style-type: none;
+	color: black;
+}
+button {
+	width: 100px;
+	height: 100px;
+}
+
+/* horizontal line */
+#herizen {
+    fill: grey;
+    size: 100px;
+}
+.pugs {
+	font-size: 15pt;
+}
+.badger {
+	width: 100px;
+}
+.mytable {
+	width: 500px;
+	height: 500px;
+}
+.list {
+	font-size: 20pt;
+}
+/* used on all p-tags on FAQ.html */
+.faqfont {
+    font-family: 'Oldenburg', cursive;
+}
+/* Everything below is PLACES dropdown menu  58-104 */
+.dropdown{
+    display:inline-block;
+        }
+.content{
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9 ;
+    min-width:160px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+}
+.content a:hover{
+    background-color:#4c4c4c ;
+}
+.dropdown:hover .content{
+    display:block;
+    cursor: pointer;
+}
+ ul li{
+    display:inline;
+    list-style: none;
+}
+li a{
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+li a:hover, .dropdown:hover{
+    background-color:#2F52E0 ;
+}
+/* id for body tag on index page */
+#index {
+	width: 100%;
+    margin:0;
+}
+/* ul on index page */
+#ddmenu {
+    background:#000 ;
+    cursor: pointer;
+}
+/* 58-104 = PLACES dropdown menu
+
+/* Everything below is TRANSPORATION dropdown menu 107-147*/
+		ul li{
+            display:inline;
+            list-style: none;
+        }
+        ul{
+            background: #000000;
+        }
+        li a{
+            display:inline-block;
+            color:white;
+            text-align:center;
+            padding:14px 16px;
+            text-decoration:none;
+        }
+        li a:hover, .dropdown:hover{
+            background-color:#2F52E0 ;
+        }
+		.dpd2{
+            display:inline-block;
+        }
+        .transp{
+            display:none;
+            position:absolute;
+            background-color:#f9f9f9 ;
+            min-width:160px;
+            box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .transp a{
+            color:black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align:left;
+        }
+  		.transp a:hover{
+            background-color: #4c4c4c;
+        }
+        .dpd2:hover .transp{
+            display:block;
+        }
+ /* TRANSPORATION dropdown menu 107-147*/

@@ -1,0 +1,17 @@
+/*greyhound.html */
+#grey {
+	border-style: solid;
+    border-width: 15px;
+    border-color: red;
+    border-radius: 8px;
+}
+/*airplanes.html */
+#size {
+	width: 500px;
+	height: 175px;
+	border-radius: 8px;
+	border-color: black;
+	border-style: solid;
+    border-width: 15px;
+    border-color: red;
+}
